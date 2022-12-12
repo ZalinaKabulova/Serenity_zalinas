@@ -1,6 +1,7 @@
 package b22.spartan.admin;
 
 import io.restassured.http.ContentType;
+import net.serenitybdd.junit5.SerenityTest;
 import org.checkerframework.checker.units.qual.C;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -8,6 +9,7 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.baseURI;
 import static io.restassured.RestAssured.given;
 
+@SerenityTest
 public class SpartanAdminGetTest {
 
     @BeforeAll
