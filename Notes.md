@@ -110,7 +110,7 @@ serenity.test.root=b22
     * first click on clean then click on verify
 * your report will be generated under target as HTML Report
 
-10.Thi sis for serenity to pick up log and eliminate the warning
+10.This is for serenity to pick up log and eliminate the warning
 ```xml
 <dependency>
     <groupId>org.slf4j</groupId>
