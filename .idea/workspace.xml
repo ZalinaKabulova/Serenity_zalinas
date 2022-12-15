@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d8072d3-b938-4d91-a930-c63f1768e595" name="Changes" comment="Day 13">
-      <change afterPath="$PROJECT_DIR$/src/test/java/b22/spartan/editor/SpartanEditorPostTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/SpartanNewBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/SpartanUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/SpartanData.cvs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/Notes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/b22/spartan/admin/SpartanAdminGetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/b22/spartan/admin/SpartanAdminGetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/b22/spartan/admin/SpartanAdminGetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/b22/spartan/admin/SpartanAdminGetTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/b22/spartan/editor/SpartanEditorPostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/b22/spartan/editor/SpartanEditorPostTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +47,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.SpartanAdminGetTest.getOneSpartan">
+  <component name="RunManager" selected="JUnit.SpartanEditorPostTest.postSpartanAsEditor">
     <configuration name="SpartanAdminGetTest.getAllSpartan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Serenity_zalinas" />
       <extension name="coverage">
@@ -84,8 +80,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpartanEditorPostTest.postSpartanAsEditor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Serenity_zalinas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="b22.spartan.editor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="b22.spartan.editor" />
+      <option name="MAIN_CLASS_NAME" value="b22.spartan.editor.SpartanEditorPostTest" />
+      <option name="METHOD_NAME" value="postSpartanAsEditor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpartanEditorPostTest.postSpartanAsEditor" />
         <item itemvalue="JUnit.SpartanAdminGetTest.getOneSpartan" />
         <item itemvalue="JUnit.SpartanAdminGetTest.getAllSpartan" />
       </list>
@@ -102,7 +115,8 @@
       <workItem from="1670844162337" duration="6221000" />
       <workItem from="1670851109480" duration="4313000" />
       <workItem from="1670868087570" duration="593000" />
-      <workItem from="1670873377545" duration="3123000" />
+      <workItem from="1670873377545" duration="10300000" />
+      <workItem from="1671104008705" duration="776000" />
     </task>
     <task id="LOCAL-00001" summary="Day 13">
       <created>1670847015780</created>
@@ -125,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670847561159</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Day 13">
+      <created>1670922284743</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670922284743</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
