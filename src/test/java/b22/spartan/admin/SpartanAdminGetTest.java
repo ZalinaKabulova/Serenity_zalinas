@@ -5,6 +5,7 @@ import net.serenitybdd.junit5.SerenityTest;
 
 import net.serenitybdd.rest.Ensure;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.baseURI;
@@ -14,6 +15,7 @@ import static net.serenitybdd.rest.SerenityRest.lastResponse;
 //import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
+@Disabled
 @SerenityTest
 public class SpartanAdminGetTest {
 

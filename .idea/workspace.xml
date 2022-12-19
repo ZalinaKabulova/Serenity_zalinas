@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d8072d3-b938-4d91-a930-c63f1768e595" name="Changes" comment="Day 13">
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/b22/bookit/BookitEnvTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/b22/spartan/ConfigDemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/b22/spartan/admin/SpartanAdminGetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/b22/spartan/admin/SpartanAdminGetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/b22/spartan/editor/SpartanEditorPostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/b22/spartan/editor/SpartanEditorPostTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/b22/spartan/admin/SpartanAdminGetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/b22/spartan/admin/SpartanAdminGetTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +48,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -53,7 +56,23 @@
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpartanEditorPostTest.SpartanWithCSV">
+  <component name="RunManager" selected="JUnit.BookitEnvTest.test1">
+    <configuration name="BookitEnvTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Serenity_zalinas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="b22.bookit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="b22.bookit" />
+      <option name="MAIN_CLASS_NAME" value="b22.bookit.BookitEnvTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpartanAdminGetTest.getAllSpartan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Serenity_zalinas" />
       <extension name="coverage">
@@ -120,6 +139,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BookitEnvTest.test1" />
         <item itemvalue="JUnit.SpartanEditorPostTest.SpartanWithCSV" />
         <item itemvalue="JUnit.SpartanEditorPostTest.postSpartanAsEditor" />
         <item itemvalue="JUnit.SpartanAdminGetTest.getOneSpartan" />
@@ -139,7 +159,9 @@
       <workItem from="1670851109480" duration="4313000" />
       <workItem from="1670868087570" duration="593000" />
       <workItem from="1670873377545" duration="10300000" />
-      <workItem from="1671104008705" duration="4514000" />
+      <workItem from="1671104008705" duration="8381000" />
+      <workItem from="1671188133668" duration="1547000" />
+      <workItem from="1671192962981" duration="1962000" />
     </task>
     <task id="LOCAL-00001" summary="Day 13">
       <created>1670847015780</created>
@@ -176,11 +198,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671104944069</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Day 13">
+      <created>1671113698839</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671113698839</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

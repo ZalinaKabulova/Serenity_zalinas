@@ -3,6 +3,7 @@ package b22.spartan.editor;
 import io.restassured.http.ContentType;
 import net.serenitybdd.junit5.SerenityTest;
 import net.serenitybdd.rest.Ensure;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -16,6 +17,7 @@ import static org.hamcrest.Matchers.*;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+@Disabled
 @SerenityTest
 public class SpartanEditorPostTest extends SpartanNewBase {
 
